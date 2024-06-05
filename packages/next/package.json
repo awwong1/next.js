@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "@awwong1/next",
   "version": "14.2.3",
   "description": "The React Framework",
   "main": "./dist/server/next.js",
@@ -98,7 +98,8 @@
     "caniuse-lite": "^1.0.30001579",
     "graceful-fs": "^4.2.11",
     "postcss": "8.4.31",
-    "styled-jsx": "5.1.1"
+    "styled-jsx": "5.1.1",
+    "ua-parser-js": "1.0.35"
   },
   "peerDependencies": {
     "@opentelemetry/api": "^1.1.0",
@@ -307,7 +308,6 @@
     "text-table": "0.2.0",
     "timers-browserify": "2.0.12",
     "tty-browserify": "0.0.1",
-    "ua-parser-js": "1.0.35",
     "unistore": "3.4.1",
     "util": "0.12.4",
     "uuid": "8.3.2",

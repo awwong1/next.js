@@ -835,6 +835,9 @@ importers:
       styled-jsx:
         specifier: 5.1.1
         version: 5.1.1(@babel/core@7.22.5)(react@18.2.0)
+      ua-parser-js:
+        specifier: 1.0.35
+        version: 1.0.35
     devDependencies:
       '@ampproject/toolbox-optimizer':
         specifier: 2.8.3
@@ -1400,9 +1403,6 @@ importers:
       tty-browserify:
         specifier: 0.0.1
         version: 0.0.1
-      ua-parser-js:
-        specifier: 1.0.35
-        version: 1.0.35
       unistore:
         specifier: 3.4.1
         version: 3.4.1(react@18.2.0)
@@ -24187,7 +24187,7 @@ packages:
 
   /ua-parser-js@1.0.35:
     resolution: {integrity: sha512-fKnGuqmTBnIE+/KXSzCn4db8RTigUzw1AN0DmdU6hJovUTbYJKyqj+8Mt1c4VfRDnOVJnENmfYkIPZ946UrSAA==}
-    dev: true
+    dev: false
 
   /uglify-js@3.17.4:
     resolution: {integrity: sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==}

@@ -1,16 +1,19 @@
 const serverExports = {
-  NextRequest: require('next/dist/server/web/spec-extension/request')
+  NextRequest: require('@awwong1/next/dist/server/web/spec-extension/request')
     .NextRequest,
-  NextResponse: require('next/dist/server/web/spec-extension/response')
+  NextResponse: require('@awwong1/next/dist/server/web/spec-extension/response')
     .NextResponse,
-  ImageResponse: require('next/dist/server/web/spec-extension/image-response')
-    .ImageResponse,
-  userAgentFromString: require('next/dist/server/web/spec-extension/user-agent')
-    .userAgentFromString,
-  userAgent: require('next/dist/server/web/spec-extension/user-agent')
+  ImageResponse:
+    require('@awwong1/next/dist/server/web/spec-extension/image-response')
+      .ImageResponse,
+  userAgentFromString:
+    require('@awwong1/next/dist/server/web/spec-extension/user-agent')
+      .userAgentFromString,
+  userAgent: require('@awwong1/next/dist/server/web/spec-extension/user-agent')
     .userAgent,
-  URLPattern: require('next/dist/server/web/spec-extension/url-pattern')
-    .URLPattern,
+  URLPattern:
+    require('@awwong1/next/dist/server/web/spec-extension/url-pattern')
+      .URLPattern,
 }
 
 // https://nodejs.org/api/esm.html#commonjs-namespaces
